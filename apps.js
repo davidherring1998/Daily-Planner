@@ -116,4 +116,121 @@ if(myTime.getHours() >= 17 && myTime.getHours() < 18 )  {
     $(event5).css('background-color', 'green');
 }
 
-//
+// setting option to add to event 
+const event = document.getElementById('events')
+const saveBtn1 = document.getElementById('saveBtn');
+
+
+saveBtn1.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list').appendChild(newItem);
+    localStorage.setItem('event-1', listItem);
+})
+
+//second block
+const saveBtn2 = document.getElementById('btn-2');
+
+saveBtn2.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input2').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-2').appendChild(newItem);
+    localStorage.setItem('event-2', listItem);
+})
+
+//third block
+const saveBtn3 = document.getElementById('btn-3');
+
+saveBtn3.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input3').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-3').appendChild(newItem);
+    localStorage.setItem('event-3', listItem);
+})
+
+//fourth block
+const saveBtn4 = document.getElementById('btn-4');
+
+saveBtn4.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input4').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-4').appendChild(newItem);
+    localStorage.setItem('event-4', listItem);
+})
+
+//fifth block
+const saveBtn5 = document.getElementById('btn-5');
+
+saveBtn5.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input5').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-5').appendChild(newItem);
+    localStorage.setItem('event-5', listItem);
+})
+
+//sixth block
+const saveBtn6 = document.getElementById('btn-6');
+
+saveBtn6.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input6').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-6').appendChild(newItem);
+    localStorage.setItem('event-6', listItem);
+})
+
+//seventh block
+const saveBtn7 = document.getElementById('btn-7');
+
+saveBtn7.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input7').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-7').appendChild(newItem);
+    localStorage.setItem('event-7', listItem);
+})
+
+//eight block
+const saveBtn8 = document.getElementById('btn-8');
+
+saveBtn8.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input8').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-8').appendChild(newItem);
+    localStorage.setItem('event-8', listItem);
+})
+
+//ninth block
+const saveBtn9 = document.getElementById('btn-9');
+
+saveBtn9.addEventListener('click', function (event) {
+    event.preventDefault();
+    const listItem = document.getElementById('event-input9').value
+    const text = document.createTextNode(listItem);
+    const newItem = document.createElement('li');
+    newItem.appendChild(text);
+    document.getElementById('list-9').appendChild(newItem);
+    localStorage.setItem('event-9', listItem);
+})
