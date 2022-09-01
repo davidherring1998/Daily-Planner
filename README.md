@@ -5,12 +5,12 @@ When the user opens the planner the user presented with the current day and time
 
 Screenshots: 
 
-<img width="1512" alt="Screen Shot 2022-09-01 at 3 45 55 PM" src="https://user-images.githubusercontent.com/106282330/188009740-87e0508f-61ff-49e2-8378-cb132c49f8d4.png">
-<img width="1512" alt="Screen Shot 2022-09-01 at 3 46 26 PM" src="https://user-images.githubusercontent.com/1062
-<img width="1512" alt="Screen Shot 2022-09-01 at 3 46 03 PM" src="https://user-images.githubusercontent.com/106282330/188009800-2370ebdb-e6ca-474c-b1b4-6baaf82fe597.png">
-82330/188009768-42ba5443-8f2f-4f17-
-<img width="1512" alt="Screen Shot 2022-09-01 at 3 46 07 PM" src="https://user-images.githubusercontent.com/106282330/188009832-1ce96012-89fd-43d3-a699-48cefcbd67c1.png">
-9b21-e40cc820949c.png">
+<img width="1512" alt="Screen Shot 2022-09-01 at 3 52 41 PM" src="https://user-images.githubusercontent.com/106282330/188011363-3bb766a6-554d-44fe-a811-cb43fa2dad90.png">
+
+<img width="1512" alt="Screen Shot 2022-09-01 at 3 52 49 PM" src="https://user-images.githubusercontent.com/106282330/188011385-05aa2ed5-a5d9-417b-b0c5-e4a5bb676a4d.png">
+
+<img width="1512" alt="Screen Shot 2022-09-01 at 3 55 07 PM" src="https://user-images.githubusercontent.com/106282330/188011412-eb8db759-2fd0-48ba-82e2-98ce230a4301.png">
+
 
 Links: 
 
