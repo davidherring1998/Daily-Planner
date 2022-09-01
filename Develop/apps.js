@@ -128,7 +128,9 @@ saveBtn1.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list').appendChild(newItem);
-    localStorage.setItem('event', listItem);
+    const local = localStorage.setItem('event', listItem);
+    console.log(local);
+
 })
 
 //second block
