@@ -128,7 +128,7 @@ saveBtn1.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list').appendChild(newItem);
-    localStorage.setItem('event-1', listItem);
+    localStorage.setItem('9am', listItem);
 })
 
 //second block
@@ -141,7 +141,7 @@ saveBtn2.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-2').appendChild(newItem);
-    localStorage.setItem('event-2', listItem);
+    localStorage.setItem('10am', listItem);
 })
 
 //third block
@@ -154,7 +154,7 @@ saveBtn3.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-3').appendChild(newItem);
-    localStorage.setItem('event-3', listItem);
+    localStorage.setItem('11am', listItem);
 })
 
 //fourth block
@@ -167,7 +167,7 @@ saveBtn4.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-4').appendChild(newItem);
-    localStorage.setItem('event-4', listItem);
+    localStorage.setItem('12pm', listItem);
 })
 
 //fifth block
@@ -180,7 +180,7 @@ saveBtn5.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-5').appendChild(newItem);
-    localStorage.setItem('event-5', listItem);
+    localStorage.setItem('1pm', listItem);
 })
 
 //sixth block
@@ -193,7 +193,7 @@ saveBtn6.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-6').appendChild(newItem);
-    localStorage.setItem('event-6', listItem);
+    localStorage.setItem('2pm', listItem);
 })
 
 //seventh block
@@ -206,7 +206,7 @@ saveBtn7.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-7').appendChild(newItem);
-    localStorage.setItem('event-7', listItem);
+    localStorage.setItem('3pm', listItem);
 })
 
 //eight block
@@ -219,7 +219,7 @@ saveBtn8.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-8').appendChild(newItem);
-    localStorage.setItem('event-8', listItem);
+    localStorage.setItem('4pm', listItem);
 })
 
 //ninth block
@@ -232,5 +232,29 @@ saveBtn9.addEventListener('click', function (event) {
     const newItem = document.createElement('li');
     newItem.appendChild(text);
     document.getElementById('list-9').appendChild(newItem);
-    localStorage.setItem('event-9', listItem);
+    localStorage.setItem('5pm', listItem);
 })
+
+
+// past events 
+
+const pastBtn = document.getElementById('past-events');
+
+pastBtn.addEventListener('click', () => {
+    for (let i = 0; i < localStorage.length; i++){
+        key = localStorage.key(i);
+        val = localStorage.getItem(key);
+
+    const keyList = key;
+    const pastListItems = val;
+    const pastText = document.createTextNode(pastListItems);
+    const pastTextKey = document.createTextNode(keyList + ": ");
+    newLiItem = document.createElement('li');
+    newLiItem.appendChild(pastTextKey);
+    newLiItem.appendChild(pastText);
+    document.getElementById('past-list').appendChild(newLiItem);
+    console.log(key)
+    }
+
+})
+

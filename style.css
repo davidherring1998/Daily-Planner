@@ -65,6 +65,10 @@ textarea{
     "time5:00 stage stage stage stage";    
 }
 
+#time {
+  background-color: aliceblue;
+}
+
 /* event buttons */
 .save-btn {
   border-radius: 20px;
@@ -303,3 +307,46 @@ textarea{
   text-align: center;
 }
 
+/* past events  */
+#past {
+  background-color: aliceblue;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+#past-header {
+  text-align: center;
+  font-weight: 800;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline 2px;
+}
+/* button */
+#past-events {
+  border-radius: 20px;
+  background-color:red;
+  color: white;
+  width: 100%;
+
+}
+
+#past-events:hover {
+  font-size: 20px;
+  transition: all .1s ease-in-out;
+}
+
+#past-list li {
+  margin: 20px;
+  text-decoration: underline 1px;
+}
+
+.inputs {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+
+.inputs:hover {
+  border: 2px solid aliceblue;
+  transition: all .1s ease-in-out;
+}
